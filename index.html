@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Tabela de preços simples e elegante para exibição de produtos e serviços. Ideal para negócios e e-commerce, com layout responsivo e moderno.">
+      <meta name="keywords" content="tabela de preços, preços, produtos, serviços, e-commerce, tabela simples, tabela responsiva, preços online">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="author" content="Iago Barreto - Designer Gráfico e Desenvolvedor Web">
+      <meta http-equiv="X-Frame-Options" content="deny">
+      <title>Tabela de Preços Online</title>
+      <!-- Arquivo CSS -->
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 20px;
+         }
+
+         .tables-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+            flex-grow: 1; /* Permite que as tabelas ocupem o espaço disponível */
+         }
+
+         .table-container {
+            width: 30%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 20px;
+         }
+
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+         }
+
+         th, td {
+            padding: 12px 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+         }
+
+         th {
+            background-color: #4CAF50;
+            color: white;
+         }
+
+         tr:hover {
+            background-color: #f1f1f1;
+         }
+
+         .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: auto; /* Faz o rodapé ir para o final */
+         }
+      </style>
+   </head>
+   <body>
+      <div class="tables-container">
+         <div class="table-container">
+            <h2>Plano Básico</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Produto</th>
+                     <th>Preço</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Produto 1</td>
+                     <td>R$ 50,00</td>
+                  </tr>
+                  <tr>
+                     <td>Produto 2</td>
+                     <td>R$ 80,00</td>
+                  </tr>
+                  <tr>
+                     <td>Produto 3</td>
+                     <td>R$ 120,00</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+
+         <div class="table-container">
+            <h2>Plano Intermediário</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Produto</th>
+                     <th>Preço</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Produto 1</td>
+                     <td>R$ 100,00</td>
+                  </tr>
+                  <tr>
+                     <td>Produto 2</td>
+                     <td>R$ 150,00</td>
+                  </tr>
+                  <tr>
+                     <td>Produto 3</td>
+                     <td>R$ 200,00</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+
+         <div class="table-container">
+            <h2>Plano Premium</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Produto</th>
+                     <th>Preço</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Produto 1</td>
+                     <td>R$ 200,00</td>
+                  </tr>
+                  <tr>
+                     <td>Produto 2</td>
+                     <td>R$ 300,00</td>
+                  </tr>
+                  <tr>
+                     <td>Produto 3</td>
+                     <td>R$ 450,00</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+
+      <footer class="footer">
+         <p>© 2025 - Todos os direitos reservados.</p>
+      </footer>
+   </body>
+</html>
